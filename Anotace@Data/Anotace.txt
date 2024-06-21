@@ -1,0 +1,9 @@
+//Lombok - anotace, muzu udelat to ze proste vymazu vse dam @data a pak bum jen final private String jmeno,
+    //je tam i ze not null atak crazy
+    //anotace builder - dokaze vytvorit objekt s parametrama 
+		Clovek c = Clovek.builder()
+			.jmeno(sc.next())
+			.prijmeni(sc.next())
+			.vek(sc.nextInt)
+			.build();
+		
